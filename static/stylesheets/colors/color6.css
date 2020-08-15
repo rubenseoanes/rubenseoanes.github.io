@@ -6,7 +6,7 @@
 
 /* Color 
 -------------------------------------------------------------- */
-/* Color #FF8C00 */
+/* Color #e6694 */
  a,
  a.link:hover,
  h1, h2, h3, h4, h5, h6,
@@ -30,10 +30,10 @@
  .comments-area .comment-respond .comment-reply-title,
  #mainnav-mobi ul > li > a
  {
-	color: #008B8B;
+	color: #19809F;
 }
 
-/* Color #ADD8E6 */
+/* Color #008B8B */
 a:hover,
 #mainnav > ul > li > a.active,
 #mainnav > ul > li > a:hover,
@@ -71,7 +71,7 @@ a.link,
 .woocommerce-reviews #comments ul.commentlist li .star-rating span i,
 #mainnav-mobi ul > li > a:hover
  {
-	color: #FF8C00;
+	color: #004B92;
 }
 
 /* Border Color
@@ -94,7 +94,7 @@ input[type="search"]:focus,
 input[type="tel"]:focus, 
 input[type="color"]:focus, 
 input.input-text:focus {
-	border-color: #008B8B ;
+	border-color: #0d404f ;
 }
 
 /* Border color #e6694a */
@@ -103,7 +103,7 @@ ul.flat-list li:before,
 .flat-portfolio.portfolio-grid-alt .portfolio .portfolio-item .portfolio-wrap:hover,
 .woocommerce .onsale:after, .woocommerce-page .onsale:after
  {
-	border-color: #FF8C00 ;
+	border-color: #872F02 ;
 }
 
 /* Background Color
@@ -150,12 +150,11 @@ ul.portfolio-filter,
 .blog-single .blog-post .entry-footer .entry-tags a,
 .btn-menu:before, 
 .btn-menu:after, 
-.btn-menu span
- {
-	background-color: #ADD8E6 ;
+
+background-color: #0d404f;
 }
 
-/* Background color #FF8C00  */
+/* Background color #e6694a  */
 #mainnav ul.submenu > li > a:before,
 .flat-button-slider,
 .go-top:hover,
@@ -214,5 +213,5 @@ ul.portfolio-filter li.active a:after,
 .btn-menu.active:before,
 .btn-menu.active:after
  {
-	background-color: #FF8C00 ;
+	background-color: #e6694a ;
 }
