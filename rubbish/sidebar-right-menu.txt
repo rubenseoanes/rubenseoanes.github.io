@@ -1,0 +1,26 @@
+                                    <div class="widget widget_nav_menu">
+                                        <ul class="nav_menu">
+                                            <li class="menu-item">
+                                                <a class="active" href="about.html">Overview</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="company-history.html">Company history</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="leadership-team.html">Leadership Team</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="partners-clients.html">Partners / Clients</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="testimonials.html">Testimonials</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="faq.html">FAQ</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="awards-recognition.html">Awards &amp; Recognition</a>
+                                            </li>
+                                        </ul>
+                                    </div><!-- /.widget_nav_menu -->
+
