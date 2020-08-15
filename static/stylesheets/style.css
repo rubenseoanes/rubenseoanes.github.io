@@ -40,6 +40,7 @@
 
 /* Reset
 -------------------------------------------------------------- */
+
 	html {
 		overflow-y: scroll;
 		-webkit-text-size-adjust: 100%;
@@ -181,7 +182,7 @@ body {
 	font-size: 15px;
 	font-weight: 400;
 	background-color: #fff;		
-	color: #2f4862;
+	color: #004B92;
 	line-height: 1.8;
 }
 
@@ -214,7 +215,7 @@ span {
 
 a:hover,
 a:focus {
-	color: #18ba60;
+	color: #FF8F01;
 	text-decoration: none;
 	outline: 0;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -229,13 +230,13 @@ ul, ol {
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	-webkit-transition: all 0.3s ease-in-out;
-	   -moz-transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
-		 -o-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;		
+    max-width: 80%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    max-height: 80%;
 }
 
 .img-left {
@@ -397,7 +398,7 @@ button[type="submit"].scheme2:hover,
 .button.scheme2:hover {
     color: #ffffff;
     background-image: none;
-    background-color: #18ba60;
+    background-color: #18bfa60;
     height: 45px;
     line-height: 45px;
     padding: 0 30px;
@@ -426,6 +427,7 @@ button[type="submit"].lg:hover,
 .button.lg:hover {
     background-color: #15416e;
     color: #ffffff;
+    text-shadow: 0px 0px;
 }
 
 input[type="submit"].lg, 
@@ -437,9 +439,18 @@ button[type="submit"].lg,
 }
 
 .button.sm {
-	height: 40px;
+    height: 40px;
     line-height: 40px;
     padding: 0 25px;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: #E6694A;
+}
+.button.sm:hover {
+  background: #ff8600;
+  color: #fff !important;
+	
 }
 
 textarea {
@@ -556,7 +567,7 @@ a.link:hover {
 /* Top 
 ---------------------------------------------------------------*/
 .top {
-	background-color: #15416e;
+	background-color: #FF0000;
 	color: rgba(255, 255, 255, 0.75);
     font-size: 14px;
     padding: 9px 0;
@@ -584,7 +595,7 @@ a.link:hover {
     margin-left: 30px;
     width: 28px;
     height: 28px;
-    color: #ffffff;
+    color: #E6694A;
     font-size: 14px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -618,7 +629,7 @@ a.link:hover {
 }
 
 .top .top-navigator ul > li > a:hover {
-	color: #fff;
+	color: #ffff;
 }
 
 .top .top-navigator > ul > li > ul {
@@ -684,7 +695,7 @@ a.link:hover {
     width: 5px;
     height: 5px;
     content: "";
-	background-color: #18ba60;
+	background-color: #18fba60;
     vertical-align: middle;
     margin: -1px 10px 0 0;
     -webkit-transform: rotate(45deg);
@@ -704,7 +715,7 @@ a.link:hover {
 /* Header
 -------------------------------------------------------------- */
 .header {
-	background-color: #fff;
+	background-color: #ffff;
 	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
 		-ms-transition: all 0.3s ease-in-out;
@@ -745,7 +756,7 @@ a.link:hover {
 
 .header .header-wrap .show-search i {
 	font-size: 12px;
-	color: #fff;
+	color: #ffff;
 	width: 35px;
 	height: 35px;
 	line-height: 35px;
@@ -767,7 +778,7 @@ a.link:hover {
 	border-color: #697ea4;
 	border-style: solid;
 	color: #697ea4;
-	background-color: #fff;
+	background-color: #ffff;
 }
 
 .header .header-wrap .language-wrap ul li {
@@ -834,7 +845,7 @@ a.link:hover {
 }
 
 #header.header.header-v2 #mainnav > ul > li > a.active {
-	background-color: #18ba60;
+	background-color: #18bfa60;
 	color: #fff;
 }
 
@@ -860,7 +871,7 @@ a.link:hover {
 }
 
 .header.header-v3 .header-wrap.style {
-	background-color: #15416e;
+	background-color: #FF0000;
 }
 
 .header.header-v3 .header-wrap .nav-wrap {
@@ -875,14 +886,15 @@ a.link:hover {
 
 .header.header-v3 .header-wrap #mainnav > ul > li > a.active {
 	background-color: rgba(0, 0, 0, 0.1);
-	color: #fff;
+	color: #ffff;
 	border-top: transparent;
 	border-right: 1px solid rgba(255, 255, 255, 0.2);
 	border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .header.header-v3 .header-wrap #mainnav > ul > li > a:hover {
-	color: #fff;
+
+    background-color: #E6694A;
 }
 
 .header-v3 #mainnav > ul > li > a.active:after {
@@ -893,7 +905,7 @@ a.link:hover {
     position: absolute;
     left: 0;
     right: 0;
-    background-color: #18ba60;
+    background-color: #18bfa60;
 }
 
 .header.header-v3 .header-wrap .top-search {
@@ -905,11 +917,11 @@ a.link:hover {
 }
 
 #header.downscrolled.header-v3 #mainnav > ul > li > a:hover {
-	color: #fff;
+	color: #ffff;
 }
 
 #header.downscrolled.header-v3 #mainnav > ul > li > a.active {
-	color: #fff;
+	color: #ffff;
 }
 
 /* Header style1 */
@@ -940,7 +952,7 @@ a.link:hover {
 }
 
 .header.header-v1 .flat-wrapper #mainnav > ul > li > a.active {
-	background-color: #18ba60;
+	background-color: #18baf60;
 	color: #fff;
 }
 
@@ -1004,7 +1016,7 @@ a.link:hover {
     top: 0;	  
     max-width: 1920px;     
 	margin: 0 auto;	
-	background: #fff;	
+	background: #ffff;	
 	z-index: 99999;
 	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
        -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1018,11 +1030,11 @@ a.link:hover {
 }
 
 #header.upscrolled #mainnav > ul > li > a.active {
-	color: #18ba60;
+	color: #18bfa60;
 }
 
 #header.upscrolled #mainnav > ul > li > a:hover {
-	color: #18ba60;
+	color: #18bfa60;
 }
 
 .home-boxed #header.downscrolled,
@@ -1038,11 +1050,11 @@ a.link:hover {
 }
 
 #mainnav {
-	-webkit-transition: all 0.3s ease-out;
-	   -moz-transition: all 0.3s ease-out;
-	    -ms-transition: all 0.3s ease-out;
-	     -o-transition: all 0.3s ease-out;
-	        transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 #mainnav ul {
@@ -1064,7 +1076,8 @@ a.link:hover {
 }
 
 #mainnav > ul > li {
-   display: inline-block;   
+   display: inline-block; 
+
 }
 
 #mainnav > ul > li > a {
@@ -1082,7 +1095,7 @@ a.link:hover {
 
 #mainnav > ul > li > a.active {
 	border: 1px solid #18ba60;
-	color: #18ba60;
+	color: #18baf60;
 }
 
 /* submenu */
@@ -1092,7 +1105,7 @@ a.link:hover {
     top: 150%;
     width: 250px;
     padding: 10px 0;
-    background-color: #fff;
+    background-color: #ffff;
     z-index: 9999;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
    	   filter: alpha(opacity=0);
@@ -1139,7 +1152,8 @@ a.link:hover {
     font-family: "Hind Siliguri", sans-serif;
     letter-spacing: 1px;
     font-size: 13px;
-    color: #2f4862;
+    color: #002F99;
+	background-color: #FFFFFF;
     text-transform: capitalize;	
     text-decoration: none;
     padding: 5px 18px;
@@ -1157,7 +1171,7 @@ a.link:hover {
     height: 5px;
     content: "";
     vertical-align: middle;
-	background-color: #18ba60;
+	background-color: #0d404f;
     margin: -1px 10px 0 0;
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -1165,12 +1179,11 @@ a.link:hover {
 }
 
 #mainnav ul.submenu > li > a:hover {
-	background-color: #15416e;
-	color: #fff;
-}
+	color: #E6694A;
+	}
 
 #mainnav > ul > li > a:hover {
-	color: #18ba60;
+	color: #18fba60;
 }
 
 /* Mega Menu */
@@ -1434,6 +1447,7 @@ a.link:hover {
 #mainnav-mobi ul.sub-menu > li > a:hover,
 #mainnav-mobi > ul > li > ul > li.active > a {
 	color: #fff;
+	ba
 }
 
 .btn-menu {
@@ -2154,7 +2168,7 @@ a.link:hover {
 }
 
 .blog-single .blog-post .entry-footer .entry-tags a:hover {
-	background-color: #18ba60;
+	background-color: #FFFFFF;
 }
 
 .blog-single .navigation {
@@ -2459,7 +2473,7 @@ a.link:hover {
    	margin-top: 10px;
    	font-size: 25px;
    	color: #999;
-    -webkit-animation: fa-spin 2s infinite linear;
+    -webkit-animation: fa-spin 20s infinite linear;
             animation: fa-spin 2s infinite linear; 
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -2475,7 +2489,7 @@ a.link:hover {
 .switcher-container h3 {
    font-size: 12px;
    font-weight: 700;
-   color: #fff;
+   color: #005296;
    margin: 0;
    line-height: 22px;
    margin-bottom: 10px;
@@ -2734,7 +2748,7 @@ a.link:hover {
 }
 
 .go-top:hover {
-    background-color: #18ba60;
+    background-color: #07F9EE;
 }
 
 .go-top:hover i {
@@ -2776,8 +2790,8 @@ a.link:hover {
     margin-left: 30px;
     width: 30px;
     height: 30px;
-    color: #ffffff;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #E6694A;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     text-align: center;
     line-height: 28px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -3013,4 +3027,3 @@ a.link:hover {
     float: left;
     color:#fff;
 }
-

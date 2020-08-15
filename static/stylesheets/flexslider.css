@@ -89,8 +89,7 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: auto;
-  -moz-user-select: none;
+    height: auto;
 }
 .flex-viewport {
   max-height: 2000px;
@@ -98,7 +97,7 @@ html[xmlns] .flexslider .slides {
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
-  transition: all 1s ease;
+  transition: all 10000s ease;
 }
 .loading .flex-viewport {
   max-height: 300px;
@@ -314,4 +313,3 @@ html[xmlns] .flexslider .slides {
 .flex-direction-nav .flex-next {
     right: 16px;  
 }
-
