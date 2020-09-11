@@ -206,11 +206,11 @@ p:last-child {
 }
 
 span {
-	-webkit-transition: all 0.3s ease-in-out;
-	   -moz-transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
-		 -o-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 a:hover,
@@ -255,8 +255,12 @@ b, strong {
 
 h1 { font-size: 48px; }
 h2 { font-size: 36px; }
-h3 { font-size: 30px; }
-h4 { font-size: 24px; }
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 24px;
+}
 h5 { font-size: 18px; }
 h6 { font-size: 14px; }
 
@@ -1808,7 +1812,7 @@ a.link:hover {
 
 .blog .blog-post .entry-header .entry-time span, 
 .blog-single .blog-post .entry-header .entry-time span {
-    font-size: 14px;
+    font-size: 24px;
     line-height: 0.7;
 }
 
