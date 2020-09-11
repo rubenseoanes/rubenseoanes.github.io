@@ -1251,6 +1251,7 @@ ul.flat-list.style2 {
     font-weight: 700;
     line-height: 1.1;
     margin-top: 0;
+    text-decoration: none;
 }
 
 /* Flat history
@@ -1581,6 +1582,7 @@ ul.flat-list.style2 {
     border-bottom: 1px solid rgba(54, 70, 115, 0.08);
     padding-bottom: 20px;
     color: #005296;
+    font-size: 30px;
 }
 
 .flat-title-button .title i {

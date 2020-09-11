@@ -6,9 +6,10 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #E6694A;
 }
 body {
   margin: 0;
@@ -1125,9 +1126,9 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    max-width: 80%;
+    height: auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -1335,7 +1336,8 @@ mark,
   text-transform: lowercase;
 }
 .text-uppercase {
-  text-transform: uppercase;
+    text-transform: uppercase;
+    color: #E6694A;
 }
 .text-capitalize {
   text-transform: capitalize;
