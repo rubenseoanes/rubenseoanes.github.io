@@ -237,12 +237,6 @@
         arXiv:2411.07068 (2024).</a></li>
     
     <li class="list-group-item"><strong>
-        <a class="scheme2" href="https://arxiv.org/abs/2410.03433" target="_blank">
-        Tunable diode effect in a superconducting tunnel junction with biharmonic drive</strong><br />
-        D. Scheer, R. Seoane Souto, F. Hassler, and J. Danon<br />
-        arXiv:2410.03433 (2024).</a></li>
-    
-    <li class="list-group-item"><strong>
         <a class="scheme2" href="https://arxiv.org/abs/2409.01008" target="_blank">
         Impurity States in Altermagnetic Superconductors</strong><br />
         A. Maiani and R. Seoane Souto<br />
@@ -283,6 +277,14 @@
                 
 <p style="text-align: justify">
 <ol start="1" class="list-group">
+    
+    <h4 class="title text-uppercase">2025</h4>
+    
+    <li class="list-group-item"><strong>
+        <a class="scheme2" href="https://arxiv.org/abs/2410.03433" target="_blank">
+        Tunable diode effect in a superconducting tunnel junction with biharmonic drive</strong><br />
+        D. Scheer, R. Seoane Souto, F. Hassler, and J. Danon<br />
+        arXiv:2410.03433 (2024) [Accepted in New J. Phys.].</a></li>
 
     <h4 class="title text-uppercase">2024</h4>
     
@@ -684,5 +686,19 @@ Springer Nature, Germany, ISBN: 978-3-030-36595-0 (2020).</a></li>
     <script type="text/javascript" src="static/javascript/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="static/javascript/smoothscroll.js"></script>
     <script type="text/javascript" src="static/javascript/main.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("wheel", function(event) {
+            if (window.location.pathname.includes("publications.html")) { // Apply only to this page
+                event.preventDefault();
+                window.scrollBy({
+                    top: event.deltaY * 0.5, // Adjust multiplier to reduce scroll speed
+                    behavior: "instant"
+                });
+            }
+        }, { passive: false });
+    });
+    </script>
+
 </body>
 </html>
